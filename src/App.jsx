@@ -6,6 +6,12 @@ import { Route , Routes , Link } from 'react-router-dom'
 import Home from './pages/Home'
 import Notfound from './pages/Notfound'
 import Navbar from './pages/Navbar'
+import Projects from './pages/Projects'
+import About from './pages/About'
+import Connect from './pages/Connect'
+import LetsTalk from './pages/Letstalk'
+
+
 
 function App() {
   const [count, setCount] = useState(0)
@@ -17,6 +23,11 @@ function App() {
 
     <Routes>
       <Route path='/' element={<Home />} />
+      <Route path='/about' element={<About />} />
+      <Route path='/projects' element={<Projects />} />
+      <Route path='/connect' element={<Connect />} />
+      <Route path='/letstalk' element={<LetsTalk />} />
+      
       <Route path='*' element={<Notfound />} />
     </Routes>
       

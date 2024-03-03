@@ -20,7 +20,7 @@ function Navbar() {
         <Link className="border-[1px] border-[solid] border-[#ddd] px-[1.75rem] py-[1rem] inline-block text-black font-semibold rounded-[1rem]" to="/Connect">Connect</Link>
         </li>
         <li>
-        <Link className="border-[1px] border-[solid] border-[#ddd] px-[1.75rem] py-[1rem] inline-block text-black font-semibold rounded-[1rem]" to="/lets-talk">Let's Talk</Link>
+        <Link className="border-[1px] border-[solid] border-[#ddd] px-[1.75rem] py-[1rem] inline-block text-black font-semibold rounded-[1rem]" to="/letstalk">Let's Talk</Link>
         </li>
         
         
