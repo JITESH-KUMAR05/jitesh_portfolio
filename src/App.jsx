@@ -9,7 +9,7 @@ import Navbar from './pages/Navbar'
 import Projects from './pages/Projects'
 import About from './pages/About'
 import Connect from './pages/Connect'
-import LetsTalk from './pages/lets-talk'
+import LetsTalk from './pages/Letstalk'
 
 
 
@@ -26,7 +26,7 @@ function App() {
       <Route path='/about' element={<About />} />
       <Route path='/projects' element={<Projects />} />
       <Route path='/connect' element={<Connect />} />
-      <Route path='/lets-talk' element={<LetsTalk />} />
+      <Route path='/letstalk' element={<LetsTalk />} />
       
       <Route path='*' element={<Notfound />} />
     </Routes>
