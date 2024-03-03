@@ -35,7 +35,7 @@ function Home() {
             My Resume
           </a>
           <a
-            href=""
+            href="https://www.linkedin.com/in/jitesh-kumar-5190ba240/"
             className="connect border-[1px] border-[solid] border-[#ddd] px-[1.75rem] py-[1rem] inline-block text-black font-semibold rounded-[1rem]"
           >
             Follow me on Linkedin
