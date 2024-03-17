@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import pic from "../assets/DP.jpg";
 
 function Home() {
@@ -29,54 +30,61 @@ function Home() {
 
         <div className="flex gap-4 w-[100%] mt-2 flex-wrap">
           <a
-            href=""
+          target="_blank"
+            href="https://docs.google.com/document/d/126pcwz5J_ICrMP8bJe4updkxSvv8aI68/edit?usp=sharing&ouid=102716288857617305271&rtpof=true&sd=true"
             className="connect border-[1px] border-[solid] border-[#ddd] px-[1.75rem] py-[1rem] inline-block text-black font-semibold rounded-[1rem] "
           >
             My Resume
           </a>
           <a
+          target="_blank"
             href="https://www.linkedin.com/in/jitesh-kumar-5190ba240/"
             className="connect border-[1px] border-[solid] border-[#ddd] px-[1.75rem] py-[1rem] inline-block text-black font-semibold rounded-[1rem]"
           >
             Follow me on Linkedin
           </a>
           <a
-            href=""
+          target="_blank"
+            href="https://github.com/JITESH-KUMAR05"
             className="connect border-[1px] border-[solid] border-[#ddd] px-[1.75rem] py-[1rem] inline-block text-black font-semibold rounded-[1rem]"
           >
             Follow me on Github
           </a>
           <a
-            href=""
+          target="_blank"
+            href="https://discordapp.com/users/jk05_/"
             className="connect border-[1px] border-[solid] border-[#ddd] px-[1.75rem] py-[1rem] inline-block text-black font-semibold rounded-[1rem]"
           >
             Follow me on Discord
           </a>
           <a
-            href=""
+          target="_blank"
+            href="https://twitter.com/Jitesh_Kumar05"
             className="connect border-[1px] border-[solid] border-[#ddd] px-[1.75rem] py-[1rem] inline-block text-black font-semibold rounded-[1rem]"
           >
             Follow me on Twitter
           </a>
           <a
-            href=""
+            target="_blank"
+            href="https://www.instagram.com/techvedas.dev/"
             className="connect border-[1px] border-[solid] border-[#ddd] px-[1.75rem] py-[1rem] inline-block text-black font-semibold rounded-[1rem]"
           >
             Follow me on Instagram
           </a>
           <a
-            href=""
+          target="_blank"
+            href="https://stackoverflow.com/users/23510505/jitesh-kumar"
             className="connect border-[1px] border-[solid] border-[#ddd] px-[1.75rem] py-[1rem] inline-block text-black font-semibold rounded-[1rem]"
           >
             Follow me on Stack Overflow
           </a>
 
-          <a
-            href=""
+          <Link
+            to={"/letstalk"}
             className="connect border-[1px] border-[solid] border-[#ddd] px-[1.75rem] py-[1rem] inline-block text-black font-semibold rounded-[1rem]"
           >
             Let's Talk
-          </a>
+          </Link>
         </div>
       </div>
     </div>
